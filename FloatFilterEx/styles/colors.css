@@ -1,0 +1,42 @@
+body{
+    background-image: radial-gradient(#58638E, pink)
+}
+
+header, footer{
+    background-color: #58638E;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+img{
+    max-width: 300px;
+    filter: blur(10px);
+}
+
+img:hover{
+    filter:blur(0);
+}
+
+.card{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    border: 1px solid #333;
+    background-color: pink;
+    transition: 2s ease-in-out;
+}
+
+.transform:hover{
+    transform: rotate(-5deg);
+    transition: 2s ease-in-out;
+}
+
+.content{
+    background-color: #0A093B;
+    overflow: auto;
+    padding: 2px;
+    margin: auto;
+    color: #817fb2;
+}
